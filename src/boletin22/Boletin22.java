@@ -29,7 +29,7 @@ public class Boletin22 {
                     break;
                 case 3:
                     int k = PedirDatos.enteiro("Introducir posicion del correo");
-                    msg.amosa(k);
+                    msg.amosa(k-1);
                     break;
                 case 4:
                     msg.amosaPrimerNoLeido();

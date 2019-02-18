@@ -63,6 +63,6 @@ public class Buzon {
     }
 
     public void elimina(int k) {
-        mensaje.remove(k);
+        mensaje.remove(k-1);
     }
 }
